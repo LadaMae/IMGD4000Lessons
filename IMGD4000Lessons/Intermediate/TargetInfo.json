@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "IMGD4000Lessons",
+			"Path": "..\\Source\\IMGD4000Lessons.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "IMGD4000LessonsEditor",
+			"Path": "..\\Source\\IMGD4000LessonsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

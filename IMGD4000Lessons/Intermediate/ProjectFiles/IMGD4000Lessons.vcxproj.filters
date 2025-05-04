@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\IMGD4000Lessons.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\IMGD4000Lessons.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\IMGD4000LessonsEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\IMGD4000Lessons">
+      <UniqueIdentifier>{69236000-6BE2-3B67-859E-7D0A28B7D48C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\IMGD4000Lessons\IMGD4000Lessons.Build.cs">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\IMGD4000Lessons.cpp">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\IMGD4000Lessons.h">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\IMGD4000LessonsCharacter.cpp">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\IMGD4000LessonsCharacter.h">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\IMGD4000LessonsGameMode.cpp">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\IMGD4000LessonsGameMode.h">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
