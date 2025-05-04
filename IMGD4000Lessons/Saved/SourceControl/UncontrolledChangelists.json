@@ -5,7 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/ldima/Documents/GitHub/IMGD4000Lessons/IMGD4000Lessons/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+				"C:/Users/ldima/Documents/GitHub/IMGD4000Lessons/IMGD4000Lessons/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/ldima/Documents/GitHub/IMGD4000Lessons/IMGD4000Lessons/Content/ThirdPerson/Maps/BlankLevel.umap",
+				"C:/Users/ldima/Documents/GitHub/IMGD4000Lessons/IMGD4000Lessons/Content/LevelPrototyping/Materials/M_1TutorialMat.uasset"
 			]
 		}
 	]

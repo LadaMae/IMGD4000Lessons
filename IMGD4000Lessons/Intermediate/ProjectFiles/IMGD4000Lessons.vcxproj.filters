@@ -11,6 +11,7 @@
     <None Include="..\..\Source\IMGD4000LessonsEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -32,6 +33,12 @@
     <Filter Include="Source\IMGD4000Lessons">
       <UniqueIdentifier>{69236000-6BE2-3B67-859E-7D0A28B7D48C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\ActorCollideComponent.cpp">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\ActorCollideComponent.h">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
     <None Include="..\..\Source\IMGD4000Lessons\IMGD4000Lessons.Build.cs">
       <Filter>Source\IMGD4000Lessons</Filter>
     </None>

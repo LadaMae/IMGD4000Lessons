@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ldima\\documents\\github\\imgd4000lessons\\imgd4000lessons\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\imgd4000lessons\\permoduleinline.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ldima\\documents\\github\\imgd4000lessons\\imgd4000lessons\\intermediate\\build\\win64\\x64\\imgd4000lessonseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\ldima\\documents\\github\\imgd4000lessons\\imgd4000lessons\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\imgd4000lessons\\definitions.imgd4000lessons.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
