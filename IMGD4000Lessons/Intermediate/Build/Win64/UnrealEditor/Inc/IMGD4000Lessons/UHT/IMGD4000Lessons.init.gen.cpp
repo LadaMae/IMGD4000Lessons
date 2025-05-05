@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeIMGD4000Lessons_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x3581020E,
-				0x0BC7660B,
+				0x9A6B473F,
+				0xA7FC3D63,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_IMGD4000Lessons.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_IMGD4000Lessons.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_IMGD4000Lessons(Z_Construct_UPackage__Script_IMGD4000Lessons, TEXT("/Script/IMGD4000Lessons"), Z_Registration_Info_UPackage__Script_IMGD4000Lessons, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x3581020E, 0x0BC7660B));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_IMGD4000Lessons(Z_Construct_UPackage__Script_IMGD4000Lessons, TEXT("/Script/IMGD4000Lessons"), Z_Registration_Info_UPackage__Script_IMGD4000Lessons, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x9A6B473F, 0xA7FC3D63));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
