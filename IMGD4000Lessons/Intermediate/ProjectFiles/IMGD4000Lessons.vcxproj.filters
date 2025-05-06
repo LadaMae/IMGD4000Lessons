@@ -60,6 +60,12 @@
     <ClCompile Include="..\..\Source\IMGD4000Lessons\IMGD4000LessonsGameMode.h">
       <Filter>Source\IMGD4000Lessons</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\SphereController.cpp">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\SphereController.h">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\IMGD4000Lessons\SpherePawn.cpp">
       <Filter>Source\IMGD4000Lessons</Filter>
     </ClCompile>

@@ -29,5 +29,7 @@ protected:
 
 	virtual void BeginPlay() override;
 	UFloatingPawnMovement* PawnMovement;
+	UPROPERTY(EditAnywhere)
+	class UCameraComponent* Camera;
 
 };

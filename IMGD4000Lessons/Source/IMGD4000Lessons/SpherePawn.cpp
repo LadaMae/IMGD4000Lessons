@@ -2,6 +2,7 @@
 
 
 #include "SpherePawn.h"
+#include "Camera/CameraComponent.h"
 #include "GameFramework/FloatingPawnMovement.h"
 #include "InputActionValue.h"
 
@@ -12,11 +13,15 @@ ASpherePawn::ASpherePawn()
 	PrimaryActorTick.bCanEverTick = true;
 	PawnMovement = CreateDefaultSubobject<UFloatingPawnMovement>("PawnMovement");
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>("Mesh");
+	Camera = CreateDefaultSubobject<UCameraComponent>("CameraComponent");
+
+	Camera->SetRelativeLocation(FVector(-500.f, 0.f, 0.f));
+	Camera->SetupAttachment(Mesh);
 
 	static ConstructorHelpers::FObjectFinder<UStaticMesh>SphereMeshAsset(TEXT("StaticMesh'/Engine/BasicShapes/Sphere.Sphere'"));
 	Mesh->SetStaticMesh(SphereMeshAsset.Object);
 
-	RootComponent = SphereMesh;
+	RootComponent = Mesh;
 
 }
 

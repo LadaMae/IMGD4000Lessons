@@ -19,7 +19,11 @@
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\navmovementcomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\pawnmovementcomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\floatingpawnmovement.generated.h",
-            "c:\\users\\ldima\\documents\\github\\imgd4000lessons\\imgd4000lessons\\intermediate\\build\\win64\\unrealgame\\inc\\imgd4000lessons\\uht\\spherepawn.generated.h"
+            "c:\\users\\ldima\\documents\\github\\imgd4000lessons\\imgd4000lessons\\intermediate\\build\\win64\\unrealgame\\inc\\imgd4000lessons\\uht\\spherepawn.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\cameracomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealgame\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

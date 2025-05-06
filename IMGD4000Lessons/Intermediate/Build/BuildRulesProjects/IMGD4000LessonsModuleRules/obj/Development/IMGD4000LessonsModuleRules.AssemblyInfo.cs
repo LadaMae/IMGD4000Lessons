@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IMGD4000LessonsModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b07844df6cbe6848b314dc2d0a6601902f6fa82f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97a8c3eeeac2647b5fb7e78d192cdd6b3898cd2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("IMGD4000LessonsModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IMGD4000LessonsModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
