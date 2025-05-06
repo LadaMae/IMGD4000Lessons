@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ldima\\documents\\github\\imgd4000lessons\\imgd4000lessons\\source\\imgd4000lessons\\projectileactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ldima\\documents\\github\\imgd4000lessons\\imgd4000lessons\\intermediate\\build\\win64\\x64\\imgd4000lessonseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\ldima\\documents\\github\\imgd4000lessons\\imgd4000lessons\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\imgd4000lessons\\definitions.imgd4000lessons.h",
+            "c:\\users\\ldima\\documents\\github\\imgd4000lessons\\imgd4000lessons\\source\\imgd4000lessons\\projectileactor.h",
+            "c:\\users\\ldima\\documents\\github\\imgd4000lessons\\imgd4000lessons\\intermediate\\build\\win64\\unrealeditor\\inc\\imgd4000lessons\\uht\\projectileactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -5,6 +5,8 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include <GameFramework/FloatingPawnMovement.h>
+#include "ProjectileActor.h"
+#include "DrawDebugHelpers.h"
 #include "SpherePawn.generated.h"
 
 struct FInputActionValue;
@@ -24,6 +26,17 @@ public:
 	UPROPERTY(EditAnywhere) class UStaticMeshComponent* Mesh;
 
 	void Move(const FInputActionValue& InputActionValue);
+	UPROPERTY(EditAnywhere)
+	float ProjectileSpeed;
+	void Fire(const FInputActionValue& InputActionValue);
+	void FireLaser(const FInputActionValue& InputActionValue);
+
+	UFUNCTION(BlueprintNativeEvent)
+	void HitSomething(class UStaticMeshComponent* m);
+	void HitSomething_Implementation(class UStaticMeshComponent* m);
+
+	FCollisionQueryParams cqp;
+	FHitResult hr;
 
 protected:
 

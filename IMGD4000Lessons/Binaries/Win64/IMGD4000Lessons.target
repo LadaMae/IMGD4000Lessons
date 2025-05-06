@@ -3583,6 +3583,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/Runtime/Soundscape/Soundscape.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Runtime/StateTree/StateTree.uplugin",
 			"Type": "UFS"
 		},
@@ -3863,6 +3867,7 @@
 		"SkeletalMeshModelingTools",
 		"SkeletalReduction",
 		"SoundFields",
+		"Soundscape",
 		"SpeedTreeImporter",
 		"StateTree",
 		"StudioTelemetry",

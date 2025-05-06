@@ -39,6 +39,12 @@
     <ClCompile Include="..\..\Source\IMGD4000Lessons\ActorCollideComponent.h">
       <Filter>Source\IMGD4000Lessons</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\GUIGameModeBase.cpp">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\GUIGameModeBase.h">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
     <None Include="..\..\Source\IMGD4000Lessons\IMGD4000Lessons.Build.cs">
       <Filter>Source\IMGD4000Lessons</Filter>
     </None>
@@ -60,6 +66,12 @@
     <ClCompile Include="..\..\Source\IMGD4000Lessons\IMGD4000LessonsGameMode.h">
       <Filter>Source\IMGD4000Lessons</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\ProjectileActor.cpp">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\ProjectileActor.h">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\IMGD4000Lessons\SphereController.cpp">
       <Filter>Source\IMGD4000Lessons</Filter>
     </ClCompile>
@@ -70,6 +82,12 @@
       <Filter>Source\IMGD4000Lessons</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\IMGD4000Lessons\SpherePawn.h">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\SpherePawn_Tut4.cpp">
+      <Filter>Source\IMGD4000Lessons</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\IMGD4000Lessons\SpherePawn_Tut4.h">
       <Filter>Source\IMGD4000Lessons</Filter>
     </ClCompile>
   </ItemGroup>

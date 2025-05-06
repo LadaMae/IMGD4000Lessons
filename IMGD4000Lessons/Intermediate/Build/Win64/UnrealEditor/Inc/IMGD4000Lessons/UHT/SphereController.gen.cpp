@@ -46,9 +46,19 @@ struct Z_Construct_UClass_ASphereController_Statics
 		{ "Category", "Inputs" },
 		{ "ModuleRelativePath", "SphereController.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FireAction_MetaData[] = {
+		{ "Category", "Inputs" },
+		{ "ModuleRelativePath", "SphereController.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FireLaserAction_MetaData[] = {
+		{ "Category", "Inputs" },
+		{ "ModuleRelativePath", "SphereController.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MoveAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_InputMappingContext;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_FireAction;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_FireLaserAction;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -58,9 +68,13 @@ struct Z_Construct_UClass_ASphereController_Statics
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASphereController_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0020080000010015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASphereController, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveAction_MetaData), NewProp_MoveAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASphereController_Statics::NewProp_InputMappingContext = { "InputMappingContext", nullptr, (EPropertyFlags)0x0020080000010015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASphereController, InputMappingContext), Z_Construct_UClass_UInputMappingContext_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_InputMappingContext_MetaData), NewProp_InputMappingContext_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASphereController_Statics::NewProp_FireAction = { "FireAction", nullptr, (EPropertyFlags)0x0020080000010015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASphereController, FireAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FireAction_MetaData), NewProp_FireAction_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASphereController_Statics::NewProp_FireLaserAction = { "FireLaserAction", nullptr, (EPropertyFlags)0x0020080000010015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASphereController, FireLaserAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_FireLaserAction_MetaData), NewProp_FireLaserAction_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASphereController_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASphereController_Statics::NewProp_MoveAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASphereController_Statics::NewProp_InputMappingContext,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASphereController_Statics::NewProp_FireAction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASphereController_Statics::NewProp_FireLaserAction,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ASphereController_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ASphereController_Statics::DependentSingletons[])() = {
@@ -104,10 +118,10 @@ ASphereController::~ASphereController() {}
 struct Z_CompiledInDeferFile_FID_Users_ldima_Documents_GitHub_IMGD4000Lessons_IMGD4000Lessons_Source_IMGD4000Lessons_SphereController_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASphereController, ASphereController::StaticClass, TEXT("ASphereController"), &Z_Registration_Info_UClass_ASphereController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASphereController), 3475857006U) },
+		{ Z_Construct_UClass_ASphereController, ASphereController::StaticClass, TEXT("ASphereController"), &Z_Registration_Info_UClass_ASphereController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASphereController), 632085884U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ldima_Documents_GitHub_IMGD4000Lessons_IMGD4000Lessons_Source_IMGD4000Lessons_SphereController_h_2642019012(TEXT("/Script/IMGD4000Lessons"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ldima_Documents_GitHub_IMGD4000Lessons_IMGD4000Lessons_Source_IMGD4000Lessons_SphereController_h_735957083(TEXT("/Script/IMGD4000Lessons"),
 	Z_CompiledInDeferFile_FID_Users_ldima_Documents_GitHub_IMGD4000Lessons_IMGD4000Lessons_Source_IMGD4000Lessons_SphereController_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ldima_Documents_GitHub_IMGD4000Lessons_IMGD4000Lessons_Source_IMGD4000Lessons_SphereController_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

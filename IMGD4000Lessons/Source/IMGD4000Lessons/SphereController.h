@@ -29,8 +29,16 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Inputs")
 	UInputMappingContext* InputMappingContext;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Inputs")
+	UInputAction* FireAction;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "Inputs")
+	UInputAction* FireLaserAction;
+
 private:
 	void Move(const FInputActionValue& InputActionValue);
 	void SetupInputComponent();
+	void Fire(const FInputActionValue& InputActionValue);
+	void FireLaser(const FInputActionValue& InputActionValue);
 	
 };
